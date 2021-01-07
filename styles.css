@@ -1,0 +1,104 @@
+/*  classes:
+button-> button-link; contact-me; button-link-1; button-link-2
+a-> paragraph
+div-> top-container; middle-container; bottom-container
+  */
+    body {
+      background-color: #222831;
+      margin: 0;
+      font-family: Montserrat, sans-serif;
+    }
+    a:link {
+      color: #ff9b93;
+      text-decoration: none;
+    }
+    a:visited {
+      color: #ff9b93;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #999b84;
+      text-decoration: none;
+    }
+    a:active {
+      color: #ff9b93;
+      text-decoration: none;
+    }
+    button {
+      background-color: inherit;
+      border: none;
+      font-size: 0.875rem;
+      padding: 14px 28px;
+    }
+    button:hover {
+      background: #222831 ;
+      color: #ff9b93 ;
+    }
+    .button-link-1 {
+      position: fixed;
+      right: 305px;
+    }
+    .button-link-2 {
+      position: fixed;
+      right: 200px;
+    }
+    .contact-me {
+      border: 2px solid #ff9b93;
+      position: fixed;
+      right: 40px;
+    }
+    .button-link {
+      color: black
+    }
+    div {
+      background-color: inherit;
+    }
+    hr {
+      border-color: #999b84 ;
+      border-style: dotted none none ;
+      border-width: 5px ;
+      width: 4% ;
+    }
+    h1 {
+      color: #ff9b93 ;
+      font-family: cedarville cursive, sans-serif;
+      font-size: 5rem;
+      margin-bottom: 0;
+    }
+    h3 {
+      font-family: cedarville cursive, sans-serif;
+      font-size: 1.875rem;
+      color: #ff9b93 ;
+    }
+    .middle-container {
+      position: relative;
+      margin: 20px;
+      padding: 20px;
+      bottom: 150px;
+      left: 150px;
+      display: inline-block;
+      margin-right: 30%;
+    }
+    img {
+      background-color: inherit;
+    }
+    .lighter-container {
+      background-color: #393e46;
+    }
+    ol li {
+      text-align: center;
+      list-style-position:inside;
+    }
+    .paragraph {
+      color: black;
+    }
+    .resume {
+      border: 2px solid #ff9b93;
+      margin-bottom: 100px;
+    }
+    .top-container {
+      position: relative;
+      padding: 150px 8px 50px 8px;
+      display: inline-block;
+      left: 10%;
+    }
