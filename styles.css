@@ -2,11 +2,60 @@
 button-> button-link; contact-me; button-link-1; button-link-2
 a-> paragraph
 div-> top-container; middle-container; bottom-container
+p-> blurb;
   */
+
+
+  /* shortcut to making comments: [command]+[/] for mac; [control]+[/] for windows */
+
     body {
       background-color: #222831;
       margin: 0;
       font-family: Montserrat, sans-serif;
+      color: #dddddd;
+    }
+    button {
+      background-color: inherit;
+      border: none;
+      font-size: 0.875rem;
+      padding: 14px 28px;
+    }
+    div {
+      background-color: inherit;
+    }
+    hr {
+      border-color: #999b84 ;
+      border-style: dotted none none ;
+      border-width: 5px ;
+      width: 4% ;
+    }
+    h1 {
+      color: #ff9b93 ;
+      font-family: cedarville cursive, sans-serif;
+      font-size: 5rem;
+      font-weight: bold;
+    }
+    h2 {
+      color: #ff9b93;
+      font-family: Montserrat, sans-serif;
+      font-size:1.57rem;
+      font-weight: normal;
+      margin: 0 auto 10px auto;
+    }
+    h3 {
+      color: #ff9b93 ;
+      font-family: cedarville cursive, sans-serif;
+      font-size: 1.875rem;
+    }
+    img {
+      background-color: inherit;
+    }
+    ol li {
+      text-align: center;
+      list-style-position:inside;
+    }
+    .head-img {
+
     }
     a:link {
       color: #ff9b93;
@@ -24,15 +73,12 @@ div-> top-container; middle-container; bottom-container
       color: #ff9b93;
       text-decoration: none;
     }
-    button {
-      background-color: inherit;
-      border: none;
-      font-size: 0.875rem;
-      padding: 14px 28px;
-    }
     button:hover {
       background: #222831 ;
       color: #ff9b93 ;
+    }
+    .button-link {
+      color: #dddddd;
     }
     .button-link-1 {
       position: fixed;
@@ -47,28 +93,23 @@ div-> top-container; middle-container; bottom-container
       position: fixed;
       right: 40px;
     }
-    .button-link {
-      color: black
+    .blurb {
+      width: 65%;
+      margin: auto;
     }
-    div {
-      background-color: inherit;
-    }
-    hr {
-      border-color: #999b84 ;
-      border-style: dotted none none ;
-      border-width: 5px ;
-      width: 4% ;
-    }
-    h1 {
-      color: #ff9b93 ;
-      font-family: cedarville cursive, sans-serif;
-      font-size: 5rem;
+    .main-title {
       margin-bottom: 0;
     }
-    h3 {
-      font-family: cedarville cursive, sans-serif;
-      font-size: 1.875rem;
-      color: #ff9b93 ;
+    .paragraph {
+      color: #dddddd;
+    }
+    .resume {
+      border: 2px solid #ff9b93;
+      margin: 25px auto 100px auto;
+      color: #dddddd;
+    }
+    .lighter-container {
+      background-color: #393e46;
     }
     .middle-container {
       position: relative;
@@ -79,26 +120,21 @@ div-> top-container; middle-container; bottom-container
       display: inline-block;
       margin-right: 30%;
     }
-    img {
-      background-color: inherit;
-    }
-    .lighter-container {
-      background-color: #393e46;
-    }
-    ol li {
-      text-align: center;
-      list-style-position:inside;
-    }
-    .paragraph {
-      color: black;
-    }
-    .resume {
-      border: 2px solid #ff9b93;
-      margin-bottom: 100px;
-    }
     .top-container {
       position: relative;
-      padding: 150px 8px 50px 8px;
+      padding: 150px 8px 50px;
       display: inline-block;
       left: 10%;
+    }
+    .footer {
+      background-color: #222831;
+      text-align: center;
+
+    }
+    .lighter-footer {
+      background-color: #393e46;
+      text-align: center;
+    }
+    .footer-link {
+      margin: 10px;
     }
